@@ -49,3 +49,9 @@ body {
   color: #444;
   font-size: 17px; /* 글씨 조금 키움 */
 }
+
+.post-date {
+  margin: 0 15px 10px 15px;
+  font-size: 13px;
+  color: #888;       /* 날짜 글씨 회색 */
+}
