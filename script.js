@@ -11,8 +11,8 @@ fetch('posts.json')
       div.className = 'post';
       div.innerHTML = `
         <img src="${post.image}" alt="">
-        <p>${post.desc}</p>
         <p class="post-date">${post.date}</p>
+        <p>${post.desc}</p>
       `;
       container.appendChild(div);
     });
