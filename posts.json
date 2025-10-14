@@ -1,0 +1,14 @@
+[
+  {
+    "image": "images/photo1.jpg",
+    "desc": "포핏 첫 게시물 🎉",
+    "date": "2025-10-14",
+    "permanent": false
+  },
+  {
+    "image": "images/photo2.jpg",
+    "desc": "영구 게시물 🐾",
+    "date": "2025-10-10",
+    "permanent": true
+  }
+]
