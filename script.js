@@ -2,18 +2,11 @@ fetch('posts.json')
   .then(res => res.json())
   .then(posts => {
     const container = document.getElementById('feed');
-    const now = new Date();
 
     // 날짜 기준 내림차순 정렬 (최근 게시물이 위)
     posts.sort((a, b) => new Date(b.date) - new Date(a.date));
 
     posts.forEach(post => {
-      const postDate = new Date(post.date);
-      const hoursPassed = (now - postDate) / (1000 * 60 * 60);
-
-      // 24시간 게시물: 하루 지나면 숨김
-      if (!post.permanent && hoursPassed > 24) return;
-
       const div = document.createElement('div');
       div.className = 'post';
       div.innerHTML = `
