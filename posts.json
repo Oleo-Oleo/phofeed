@@ -18,5 +18,10 @@
     "image": "images/photo4.JPG",
     "desc": "내가 수학을 해야하는 30가지 이유를 서술하시오.",
     "date": "2025-10-17"
+  },
+    {
+    "image": "images/photo5.png",
+    "desc": "오늘 재밌었다.!",
+    "date": "2025-10-18"
   }
 ]
